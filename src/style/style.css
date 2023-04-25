@@ -1,0 +1,100 @@
+body {
+    max-width: 1920px;
+    min-width: 1280px;
+}
+
+
+header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    background: #ff0000; 
+}
+
+
+
+
+header .nome {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+    font-size: 1.5rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+    
+}
+header nav ul li {
+    font-size: 1.5rem;
+}
+
+header nav a {
+    color: #ffffff;
+}
+/* header .esquerda {
+    
+}
+
+header .direita {
+   
+} */
+
+
+/* Aqui acaba o Header e começa o section para o Banner */
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #ff0000;
+    background-color: #000;
+}
+
+section .textos {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #00aeff;
+}
+
+section img {
+    width: 50%;
+    height: 50%;
+}
+
+section h2, h3, p {
+    color: #ffffff;
+}
+
+
+/* Aqui acaba o section e começa o Footer */
+
+footer {
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+footer h6 {
+    text-align: center;
+    font-size: 1rem;
+    
+}
